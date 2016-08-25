@@ -28,21 +28,39 @@ textarea{
     border: none;
     width: 620px;
     height: 1200px;
+    position: relative;
 
 }
 
 .text{
-    margin: 80px;
+    margin: 60px 80px;
     /*border: solid 1px black;*/
     width: 620px;
     height: 1200px;
-    padding-top: 60px;
+    float: left;
+    /*padding-top: 60px;*/
 }
 
 #wraper{
     background: url(img/oll_background.png) no-repeat;
     width: 1018px;
     height: 1339px;
-   /*border: solid 1px black;*/
+    /*border: solid 1px black;*/
     margin: 0 auto;
+}
+
+.button input{
+    display: inline;
+    width: 200px;
+    height: 35px;
+    margin: 700px 0;
+
+
+
+    border: none;
+    border-radius: 14px;
+    background-color: #7a2518;
+    color: white;
+    font-size: 22px;
+    box-shadow: 10px 10px 10px #7a2518;
 }
