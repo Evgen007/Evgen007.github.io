@@ -32,17 +32,17 @@ textarea{
 }
 
 .text{
-    margin: 60px 80px;
+    margin: 80px;
     /*border: solid 1px black;*/
     width: 620px;
     height: 1200px;
-    /*padding-top: 60px;*/
+    padding-top: 60px;
 }
 
 #wraper{
     background: url(img/oll_background.png) no-repeat;
     width: 1018px;
     height: 1339px;
-    /*border: solid 1px black;*/
-    margin: auto;
+   /*border: solid 1px black;*/
+    margin: 0 auto;
 }
