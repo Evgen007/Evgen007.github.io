@@ -1,0 +1,46 @@
+body{
+    background: url(img/background_desk.png) fixed;
+}
+
+/*.paper{
+    background: url(img/paper.png);
+    width: 522px;
+    height: 674px;
+    border: solid 1px black;
+    margin: 11px 443px;
+    position: relative;
+}
+
+.the_tablet{
+    background: url(img/the_tablet.png) no-repeat;
+    border: solid 1px black;
+    width: 773px;
+    height: 1339px;
+    display: inline-block;
+    position: absolute;
+}*/
+
+textarea{
+    background:transparent;
+    outline: none;
+    resize: none;
+    overflow: auto;
+    border: none;
+
+}
+
+.text{
+    margin: 60px 80px;
+   /* border: solid 1px black;*/
+    width: 600px;
+    height: 1200px;
+    padding-top: 60px;
+}
+
+#wraper{
+    background: url(img/oll_background.png) no-repeat;
+    width: 1018px;
+    height: 1339px;
+   /* border: solid 1px black;*/
+    margin: auto;
+}
