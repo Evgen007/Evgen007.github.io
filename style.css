@@ -15,7 +15,7 @@ body{
 .form{
     width: 658px;
     height: 1230px;
-    border: solid 1px black;
+    /*border: solid 1px black;*/
     margin: 0 70px;
 }
 
