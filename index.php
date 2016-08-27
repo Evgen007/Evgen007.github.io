@@ -1,6 +1,18 @@
 <?php
     if(isset ($_POST['save'])){
-        $text = $_POST['text'];
+        $text = $_POST['note'];
+        $pagename = $_POST['name_page'];
+
+        $fwritetext = <<<_END
+        $pagename
+$text
+    
+    
+    
+_END;
+
+        $savetext = fopen('text.txt','a+') or die("ошибка");
+        fwrite($savetext,$fwritetext) or die("ошибка записи");
     }
     echo<<<_END
     <!DOCTYPE html>
@@ -17,9 +29,9 @@
             <div class="form">
                 <div class="pen_line_top"></div>
                 <div class="pen_line_bot"></div>
-                <form method="post" action="index.html" id="text_save" >
+                <form method="post" action="index.php" id="text_save" >
                     <input class="name_page" type="text" name="name_page" placeholder="Название записи">
-                    <textarea name="note"></textarea>
+                    <textarea name="note" wrap="hard" cols="80"></textarea>
                     <input class="save_note" type="submit" value="Save note" name="save">
                 </form>
             </div>
@@ -29,7 +41,3 @@
     </body>
     </html>
 _END;
-
-
-	$a=4+6;
-	each "$a";
