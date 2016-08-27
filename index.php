@@ -29,3 +29,7 @@
     </body>
     </html>
 _END;
+
+
+	$a=4+6;
+	each "$a";
