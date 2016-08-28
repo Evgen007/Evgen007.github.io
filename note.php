@@ -29,10 +29,10 @@ _END;
             <div class="form">
                 <div class="pen_line_top"></div>
                 <div class="pen_line_bot"></div>
-                <form method="post" action="index.php" id="text_save" >
+                <form method="post" action="note.php" id="text_save" >
                     <input class="name_page" type="text" name="name_page" placeholder="Название записи">
-                    <textarea name="note" wrap="hard" cols="80"></textarea>
-                    <input class="save_note" type="submit" value="Save note" name="save">
+                    <textarea name="note" wrap="hard" cols="80" class="textzone" placeholder="Записывайте ваши мисли сюда"></textarea>
+                    <input class="save_note" type="submit" value="Сохранить" name="save">
                 </form>
             </div>
     
